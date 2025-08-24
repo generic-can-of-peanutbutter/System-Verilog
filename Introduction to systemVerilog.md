@@ -8,9 +8,17 @@ It was introduced by Gateway Design Autmation and is used for Verification. Test
 
 
 
+
+
+
+
 **WHY NEED FOR VERIFICATION?**
 
 We need to verify the design to make sure that the design is an accurate representation of the specification without any bugs. Verification is carried out to ensure the correctness of design, to avoid surprises at a later time, to avoid a re-spin of the chip and to enter the market on time with good quality. We verify modules by driving different input patterns to check the behaviour. A correct input combination is applied to check the device's behaviour. this is done using **Testbench** or **Verification Environment**.
+
+
+
+
 
 
 
@@ -57,6 +65,10 @@ SystemVerilog checks these automatically with specialized always blocks.
 
 6.Industry Standard for Verification (UVM)
 SystemVerilog is the base language for UVM (Universal Verification Methodology), the most widely used verification framework in chip design.UVM (Universal Verification Methodology) is a standardized verification methodology used across the semiconductor industry to verify complex digital designs, and SystemVerilog is its foundation.
+
+
+
+
 
 
 
