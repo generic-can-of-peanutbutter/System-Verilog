@@ -9,11 +9,13 @@ It was introduced by Gateway Design Autmation and is used for Verification. Test
 
 
 **WHY NEED FOR VERIFICATION?**
+
 We need to verify the design to make sure that the design is an accurate representation of the specification without any bugs. Verification is carried out to ensure the correctness of design, to avoid surprises at a later time, to avoid a re-spin of the chip and to enter the market on time with good quality. We verify modules by driving different input patterns to check the behaviour. A correct input combination is applied to check the device's behaviour. this is done using **Testbench** or **Verification Environment**.
 
 
 
 **WHY SYSTEM VERILOG OVER VERILOG?**
+
 SystemVerilog is preferred over Verilog because it extends Verilog with powerful new features for design, verification, and productivity.
 Some advantages-
 
@@ -59,6 +61,7 @@ SystemVerilog is the base language for UVM (Universal Verification Methodology),
 
 
 **STEPS TO CHECK THE FUNCTIONALITY OF ANY MODULE**
+
 Generate stimulus
 Apply stimulus to the DUT
 Capture the response
