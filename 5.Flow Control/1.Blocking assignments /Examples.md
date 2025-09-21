@@ -1,4 +1,6 @@
-Immediate value is assigned to the variables at the time of execution. Hence it is used for combinational logic as it is following combinational behaviour 
+Immediate value is assigned to the variables at the time of execution. Hence it is used for combinational logic as it is following combinational behaviour i.e. the output of a gate available as input to the next gate(update immediately in sequence).
+Note- 
+1)Blocking statements execute in a sequential manner i.e. from top to bottom.
 EXAMPLE 1-
 ```
 module blocking_example1;
